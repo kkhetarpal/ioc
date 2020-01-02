@@ -33,7 +33,7 @@ do
                 echo "#SBATCH --time=1:00:00" >> temprun.sh
                 echo "source $HOME/miniconda3/etc/profile.d/conda.sh" >> temprun.sh
                 echo "conda activate intfc" >> temprun.sh
-                echo "cd $HOME/control/baselines/ppoc_int/" >> temprun.sh
+                echo "cd $HOME/ioc/control/baselines/ppoc_int/" >> temprun.sh
                 k="xvfb-run -n "${port[$count]}" -s \"-screen 0 1024x768x24 -ac +extension GLX +render -noreset\" python run_mujoco.py --env "$envname" --saves --opt 2 --seed ${_seed} --mainlr ${_mainlr} --intlr ${_intfclr} --piolr ${_piolr} --switch --wsaves"
                 echo $k >> temprun.sh
                 echo $k
