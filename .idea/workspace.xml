@@ -2,215 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f8913ae-0ecb-4e2e-8289-d476725d3cfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ioc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/.benchmark_pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/bench/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/bench/benchmarks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/bench/monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/atari_wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/cg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/cmd_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/console_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/distributions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/math_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/misc_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/mpi_adam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/mpi_adam_optimizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/mpi_fork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/mpi_moments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/mpi_running_mean_std.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/mpi_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/plot_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/policies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/retro_wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/runners.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/running_mean_std.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/schedules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/segment_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/envs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/envs/fixed_sequence_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/envs/identity_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/envs/mnist_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_cartpole.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_doc_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_env_after_learn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_fetchreach.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_fixed_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_identity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_schedules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_segment_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_serialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/test_tf_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tests/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tf_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/tile_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/dummy_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/shmem_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/subproc_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/test_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/test_video_recorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/vec_frame_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/vec_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/vec_normalize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/common/vec_env/vec_video_recorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/assets/half_cheetah.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/assets/twod_tmaze.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/half_cheetah.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/mlp_policy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/normalized_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/plot_res.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/pposgd_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/run_mujoco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/seeding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/ppoc_int/twod_tmaze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/results_plotter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/baselines/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/benchmarks_atari10M.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/benchmarks_mujoco1M.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/data/cartpole.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/data/fetchPickAndPlaceContrast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/data/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/docs/viz/viz.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launcher_miniworld.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/launcher_mujoco.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/.benchmark_pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/bench/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/bench/benchmarks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/bench/monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/atari_wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/cg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/cmd_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/console_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/distributions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/math_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/misc_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/mpi_adam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/mpi_adam_optimizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/mpi_fork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/mpi_moments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/mpi_running_mean_std.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/mpi_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/plot_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/policies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/retro_wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/runners.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/running_mean_std.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/schedules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/segment_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/envs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/envs/fixed_sequence_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/envs/identity_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/envs/mnist_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_cartpole.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_doc_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_env_after_learn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_fetchreach.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_fixed_sequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_identity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_schedules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_segment_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_serialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/test_tf_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tests/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tf_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/tile_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/dummy_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/shmem_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/subproc_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/test_vec_env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/test_video_recorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/vec_frame_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/vec_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/vec_normalize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/common/vec_env/vec_video_recorder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/cnn_policy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/mlp_policy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/muj.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/oneroom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/plot_res.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/pposgd_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/run_miniw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/ppoc_int/run_mujoco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/results_plotter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/baselines/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/data/cartpole.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/data/fetchPickAndPlaceContrast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/data/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/docs/viz/viz.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/setup.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniworld/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/.ipynb_checkpoints/fr_analysis_heatmaps-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/.ipynb_checkpoints/fr_analysis_performance-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/.ipynb_checkpoints/fr_env_plots-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/FR_Return_10Runs_Smooth_MisspecifiedPiO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/FR_Steps_10Runs_Smooth_MisspecifiedPiO.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/GoalG62.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/History.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/IOC_Task1_IntraOptionPolicy_Opt_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/IOC_Task1_IntraOptionPolicy_Opt_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/IOC_Task1_IntraOptionPolicy_Opt_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/IOC_Task1_IntraOptionPolicy_Opt_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/Params.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/StateFreq.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/Weights_ActionValueFunction.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/Weights_InterestFunction.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/Weights_IntraOption.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/Weights_OptionValueFunction.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/Weights_Policy.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/InterestOptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_IF0.15_LReg0.0_seed7200/Weights_Termination.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/OptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_seed7200/History.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/OptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_seed7200/Params.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/OptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_seed7200/StateFreq.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/OptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_seed7200/Weights_ActionValueFunction.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/OptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_seed7200/Weights_IntraOption.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/OptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_seed7200/Weights_OptionValueFunction.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/OptionCritic/Runs10_Epsds500_Eps0.01_NOpt4_LRT0.25_LRI0.25_LRC0.5_temp0.01_seed7200/Weights_Termination.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/TransferVisual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/fourrooms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/fr_analysis_heatmaps.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/fr_analysis_performance.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/fr_env_plots.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/interestoptioncritic_tabular_fr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tabular/optioncritic_tabular_fr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -266,8 +57,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="414">
-                <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+              <first_editor relative-caret-position="703">
+                <caret line="156" column="6" lean-forward="true" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -514,8 +305,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="414">
-            <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="16" />
+          <first_editor relative-caret-position="703">
+            <caret line="156" column="6" lean-forward="true" selection-start-line="156" selection-start-column="6" selection-end-line="156" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>

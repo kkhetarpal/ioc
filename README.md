@@ -154,7 +154,7 @@ To ask questions or report issues, please open an issue on the [issues tracker](
 
 
 ### Citations
-* The [fourrooms]() experiment is built on the Option-Critic, [2017](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14858/14328) [tabular code](https://github.com/jeanharb/option_critic/tree/master/fourrooms).
+* The fourrooms experiment is built on the Option-Critic, [2017](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14858/14328) [tabular code](https://github.com/jeanharb/option_critic/tree/master/fourrooms).
 * The PPOC, [2017](https://arxiv.org/pdf/1712.00004.pdf) baselines [code](https://github.com/mklissa/PPOC) serves as base to our function approximation experiments.
 * To install Mujoco, please visit their [website](https://www.roboti.us/license.html) and acquire a free student license.
 * For any issues you face with setting up miniworld, please visit their [troubleshooting](https://github.com/maximecb/gym-miniworld/blob/master/docs/troubleshooting.md) page.
