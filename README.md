@@ -6,7 +6,7 @@ This repo contains code accompaning the paper, Options of Interest: Temporal Abs
 * All proofs, pseudo-code and reproducibility checklist details are available in the appendix on our [project webpage](https://sites.google.com/view/optionsofinterest).
 * For experiment details, please refer to the full paper provided on the webpage. 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Tabular Experiments (Four-Rooms)
+### Tabular Experiments (Four-Rooms)
 
 ##### Dependencies
 To install dependencies for control experiments: run the following commands:
@@ -36,7 +36,7 @@ To plot the performance curves, use the notebook: `fr_analysis_performance.ipynb
 To visualize the options learned, use the notebook: `fr_analysis_heatmaps.ipynb`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Control Experiments (TMaze & HalfCheetah)
+### Control Experiments (TMaze & HalfCheetah)
 
 
 ##### Dependencies
@@ -86,7 +86,7 @@ where _epoch_ would be the training epoch at which you want to visualize the lea
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Visual Navigation Experiments (Miniworld)
+### Visual Navigation Experiments (Miniworld)
 
 ##### Dependencies
 To install dependencies for miniworld experiments: run the following commands:
