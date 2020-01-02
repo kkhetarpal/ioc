@@ -161,8 +161,8 @@ To ask questions or report issues, please open an issue on the [issues tracker](
 
 ## Additional Material
 
-* Poster presented at NeurIPS 2019, Deep RL Workshop, Learning Transferable Skills Workshop. ([link](https://kkhetarpal.files.wordpress.com/2019/12/neurips_drl_optionsofinterest_poster.pdf))
-* Preliminary ideas presented in AAAI 2019, Student Abstract track, Selected as a finalist in 3MT Thesis Competition ([paper link](https://www.aaai.org/ojs/index.php/AAAI/article/view/5114)), ([poster link](([link](https://kkhetarpal.files.wordpress.com/2019/08/poster_interestfunctions.pdf))).
+* Poster presented at NeurIPS 2019, Deep RL Workshop, Learning Transferable Skills Workshop can be found ([here](https://kkhetarpal.files.wordpress.com/2019/12/neurips_drl_optionsofinterest_poster.pdf)).
+* Preliminary ideas presented in AAAI 2019, Student Abstract track, Selected as a finalist in 3MT Thesis Competition ([paper link](https://www.aaai.org/ojs/index.php/AAAI/article/view/5114)), ([poster link](https://kkhetarpal.files.wordpress.com/2019/08/poster_interestfunctions.pdf)).
 
 
 ## Citations
