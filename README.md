@@ -48,7 +48,7 @@ To plot the performance curves, use the notebook: `fr_analysis_performance.ipynb
 To visualize the options learned, use the notebook: `fr_analysis_heatmaps.ipynb`
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## Control (TMaze & HalfCheetah)
+## Control Experiments (TMaze & HalfCheetah)
 
 
 #### Dependencies
