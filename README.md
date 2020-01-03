@@ -2,7 +2,7 @@
 This repo contains code accompaning the paper, Options of Interest: Temporal Abstraction with Interest Functions (Khetarpal et al., AAAI 2020). It includes code for **interest-option-critic (IOC)** to run all the experiments described in the paper.
 
 
-* You can find demonstrative vidoes of the trained agents on our [project webpage](https://sites.google.com/view/optionsofinterest).
+* You can find demonstrative videos of the trained agents on our [project webpage](https://sites.google.com/view/optionsofinterest).
 * All proofs, pseudo-code and reproducibility checklist details are available in the appendix on our [project webpage](https://sites.google.com/view/optionsofinterest).
 * For experiment details, please refer to the full paper provided on the webpage. 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
