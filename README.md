@@ -75,10 +75,11 @@ To run the code with HalfCheetah experiments, use:
 
 
 #### Running experiments on slurm
-To run the code on compute canada or any slurm cluster, make sure you have installed all dependencies and created a conda environment _intf_, following which use the script launcher_miniworld.sh by running:
+To run the code on compute canada or any slurm cluster, make sure you have installed all dependencies and created a conda environment _intf_. 
+Now, use the script launcher_mujoco.sh wherein you would need to add account and add username and then run:
 ```
-chmod +x launcher_control.sh
-./launcher_control.sh
+chmod +x launcher_mujoco.sh
+./launcher_mujoco.sh
 ```
 
 To run the baseline option-critic, use the flag `--nointfc` in the above script:
@@ -127,7 +128,8 @@ xvfb-run -n 4005 -s "-screen 0 1024x768x24 -ac +extension GLX +render -noreset" 
 
 
 #### Running experiments on slurm
-To run the code on compute canada or any slurm cluster, make sure you have installed all dependencies and created a conda environment _intf_, following which use the script launcher_miniworld.sh by running:
+To run the code on compute canada or any slurm cluster, make sure you have installed all dependencies and created a conda environment _intf_. 
+Now, use the script launcher_miniworld.sh wherein you would need to add account and add username and then run:
 ```
 chmod +x launcher_miniworld.sh
 ./launcher_miniworld.sh
