@@ -82,12 +82,9 @@ wwwwwwwwwwwww
     def step(self, action):
         """
         The agent can perform one of four actions,
-        up, down, left or right, which have a stochastic effect. With probability 2/3, the actions
-        cause the agent to move one cell in the corresponding direction, and with probability 1/3,
-        the agent moves instead in one of the other three directions, each with 1/9 probability. In
-        either case, if the movement would take the agent into a wall then the agent remains in the
-        same cell.
-        We consider a case in which rewards are zero on all state transitions.
+        up, down, left or right, which have a stochastic effect. 
+        We consider a case in which rewards are zero on all state transitions 
+        except the goal state which has a reward of +50.
         """
 
         reward = 0
